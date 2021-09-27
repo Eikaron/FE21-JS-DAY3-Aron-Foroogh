@@ -3,14 +3,12 @@
 function temperature(){
 
     //For Exercise 1
-    //temp1 = Math.floor(Math.random()*25);
-    //temp2 = Math.floor(Math.random()*(-5));
+    //temp = (Math.random()*(-30)+25).toFixed(1);
 
     //For Exercise 3
-    temp1 = Math.floor(Math.random()*40);
-    temp2 = Math.floor(Math.random()*(-25));
+    temp1 = Math.floor(Math.random()*65)-25; //Math.floor(Math.random()) * (max-min+1) + min)
 
-    temp = temp1+temp2;
+    //console.log(`${temp0}°C`)
     console.log(`${temp}°C`);
 
     if (temp <= 10){
