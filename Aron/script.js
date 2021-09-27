@@ -19,8 +19,32 @@ function temperature(){
     {
         console.log("The weather is moderate");
     }
-
-
 }
 
 temperature();
+console.log("")
+
+
+//Basic 2
+
+function highestValue(array){
+    
+    hVal = 0;
+
+    for (i=0; i < array.length; i++){
+
+        if (array[i] > hVal) {
+            hVal = array[i];
+        }
+    }
+
+    console.log(hVal);
+    console.log("");
+}
+
+const myArray = [1, 7, 10, 5, 8, -3];
+
+highestValue(myArray);
+
+//Basic 3
+
