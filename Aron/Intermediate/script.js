@@ -42,3 +42,36 @@ console.log(`Class average: ${average}`);
 const points = [["Martin",76], ["Thomas",85], ["Fatima",65], ["Maria",93],["David",81]];
 
 gradePointAverage(points);
+
+
+//FizzBuzz
+
+let result = "";
+
+for (i = 1; i < 101; i++){
+
+    if (i % 3 == 0){
+        result3 = "Fizz";
+    }
+
+    else {
+        result3 = "";
+    }
+
+    if (i % 5 == 0){
+        result5 = "Buzz";
+    }
+
+    else {
+        result5 = "";
+    }
+
+    result = result3+result5;
+    
+    if (result == ""){    
+        console.log(i);
+    }
+    else {
+    console.log(result);
+    }
+}
